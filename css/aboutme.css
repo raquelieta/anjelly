@@ -1,0 +1,64 @@
+
+a:link{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:lightslategray;
+
+}
+#header{
+    /* background-image: url('../img/sampleBG.png');
+    background-size: 100% auto; */
+    transition: ease-in-out 0.3s;
+    /* position:relative; */
+}
+#header h2{
+    border-bottom: 2px solid #d11d27;
+}
+#me-in-a-mask{
+    box-shadow: 5px 10px #888888;
+    margin-left: 50px;
+}
+.social-media-links a{
+    margin-right:10px;
+    border-radius: 10px;
+
+}
+section #about-me-header{
+    border-bottom: 2px solid #d11d27;
+}
+.about-me ul{
+    list-style: none;
+}
+.about-me ul li{
+    display: flex;
+}
+.about-me ul li .contact-details{
+    margin-left: 10px;
+}
+.bio-header::after{
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #d11d27;
+    margin: 4px 10px;
+}
+
+section #experience-header{
+    border-bottom: 2px solid #d11d27;
+    line-height: 5rem;
+}
+.education-list h4, .experience-list h4{
+    font-size: 18px;
+}
+.program-language i {
+    font-size:18px;
+}
+.stack-box{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: rgb(33 37 41 / 70%);
+    transition: ease-in-out 0.3s;
+}
